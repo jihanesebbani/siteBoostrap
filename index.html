@@ -1,0 +1,187 @@
+﻿<html>
+<head>
+<title> Boostrap tutoriel</title>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="csspage/bootstrap.min.css"/>
+<link rel="stylesheet" href="csspage/bootstrap.min.css"/>
+<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+<div class="container " >
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Menu</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#boot">Bootstrap <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#css">CSS</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          HTML
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<br/>
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="1.png" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="2.png" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="3.jpg" alt="Third slide">
+    </div>
+  </div>
+</div>
+<div class="alert alert-primary" role="alert">
+  les principaux technologies pour developper la partie <a href="#" class="alert-link">front-End </a>de votre Code! 
+  <button type="button" class="btn btn-primary" onclick="afficher()">
+  Profile <span class="badge badge-light">9</span>
+  <span class="sr-only">unread messages</span>
+</button>
+
+<script>
+function afficher()
+{
+document.body.style.backgroundColor=green;
+}
+</script>
+</div>
+
+<br/>
+Vous vous demandez ce qui différencie un développeur Front-End d'un développeur Back-End ? À vrai dire, vous n'êtes pas la seule personne à vous poser la question. Ces termes viennent certainement se mélanger dans votre esprit avec «intégrateur web» ou encore «webmestre», «programmeur», «web designer»...
+Les rôles et les profils de poste de la production web ont évolué au cours de ces dernières années, il est donc parfois difficile de comprendre ce que fait concrètement chacun.
+
+Nous allons identifier et différencier les rôles de développeur Front-End et développeur Back-End qui sont les deux profils-types que l'on retrouve dans la plupart des agences web de nos jours.
+<div class="row">
+<article class="col-xs-14 col-sm-12 col-md-4 btn-danger">
+<h1>Bootstrap</h1>
+world's most popular front-end component library.
+
+Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
+<br/> <br/>
+</article>
+<article class="col-xs-14 col-sm-12 col-md-4 btn-primary">
+<h1>CSS</h1>
+Les feuilles de style en cascade1, généralement appelées CSS de l'anglais Cascading Style Sheets, forment un langage informatique qui décrit la présentation des documents HTML et XML. Les standards définissant CSS sont publiés par le World Wide Web Consortium (W3C). Introduit au milieu des années 1990, CSS devient couramment utilisé dans la conception de sites web et bien pris en charge par les navigateurs web dans les années 2000.
+</article>
+<article class="col-xs-14 col-sm-12 col-md-4  btn-success">
+<h1>HTML</h1>
+L’HyperText Markup Language, généralement abrégé HTML, est le langage de balisage conçu pour représenter les pages web. C’est un langage permettant d’écrire de l’hypertexte, d’où son nom. HTML permet également de structurer sémantiquement et logiquement et de mettre en forme le contenu des pages, d’inclure des ressources multimédias dont des images, des formulaires de saisie, et des programmes informatiques. Il permet de créer des documents interopérables avec des équipements très variés de manière conforme aux exigences de l’accessibilité du web. Il est souvent utilisé conjointement avec le langage de programmation JavaScript et des feuilles de style en cascade (CSS). HTML est initialement dérivé du Standard Generalized Markup Language (SGML).
+</article></div>
+<br/> <br/>
+<div class="row">
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page" id="boot">Bootstrap</li>
+	world's most popular front-end component library. Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#boot">Bootstrap</a></li>
+    <li class="breadcrumb-item active"  aria-current="page" id="css">CSS</li>
+  Les feuilles de style en cascade1, généralement appelées CSS de l'anglais Cascading Style Sheets, forment un langage informatique qui décrit la présentation des documents HTML et XML. Les standards définissant CSS sont publiés par le World Wide Web Consortium (W3C). Introduit au milieu des années 1990, CSS devient couramment utilisé dans la conception de sites web et bien pris en charge par les navigateurs web dans les années 2000.
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#boot">Bootstrap</a></li>
+    <li class="breadcrumb-item"><a href="#css">CSS</a></li>
+    <li class="breadcrumb-item active" aria-current="page" id="html">HTML</li>
+	L’HyperText Markup Language, généralement abrégé HTML, est le langage de balisage conçu pour représenter les pages web. C’est un langage permettant d’écrire de l’hypertexte, d’où son nom. HTML permet également de structurer sémantiquement et logiquement et de mettre en forme le contenu des pages, d’inclure des ressources multimédias dont des images, des formulaires de saisie, et des programmes informatiques. Il permet de créer des documents interopérables avec des équipements très variés de manière conforme aux exigences de l’accessibilité du web. Il est souvent utilisé conjointement avec le langage de programmation JavaScript et des feuilles de style en cascade (CSS). HTML est initialement dérivé du Standard Generalized Markup Language (SGML).
+  </ol>
+</nav>
+</div>
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Developpeur front end</h5>
+        <p class="card-text">Lorsque l'on parle de «Front-End», il s'agit finalement des éléments du site que l'on voit à l'écran et avec lesquels on peut interagir. Ces éléments sont composés de HTML, CSS et de Javascript contrôlés par le navigateur web de l'utilisateur.
+
+Les champs de compétence du Front-End peuvent être séparer en deux :
+- Le design
+- Le développement HTML, CSS, Javascript
+
+Le design est traditionnellement réalisé par un web designer qui produit des maquettes graphiques à l'aide de Photoshop ou Fireworks. Cependant de plus en plus de web designers ont franchi la barrière et savent coder en HTML et CSS. Dans certains cas ils sont aussi capables de produire du Javascript.</p>
+        <a href="https://www.alticreation.com/difference-developpeur-front-end-et-developpeur-back-end/" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Developpeur Back-End</h5>
+        <p class="card-text">Le Back-End, c'est un peu comme la partie immergée de l'iceberg. Elle est invisible pour les visiteurs mais représente une grande partie du développement d'un projet web. Sans elle, le site web reste une coquille vide.
+
+On peut décomposer le Back-End en trois parties essentielles :
+- Un serveur (ou hébergement web)
+- Une application (en l’occurrence le site web)
+- Une base de données (ou l'on stocke les données de l'application)
+
+Le serveur est comme un disque dur accessible 24 heures sur 24, sur lequel les pages du site web sont enregistrées.
+
+Pour pouvoir conserver vos mots de passe, vos préférences, votre panier d'achat que vous avez saisi grâce aux éléments de Front-End, il est nécessaire de les enregistrer dans une base de données. La base de données est comparable à un grand tableau avec des colonnes contenant par exemple «nom», «prénom», «mot de passe», «achat en cours». Lors de votre inscription sur un site, votre profil est enregistré dans ce tableau.
+Pour pouvoir conserver, traiter, modifier ces données et fournir des informations à jour sur un site internet (comme des actualités, des fiches produits, des images, des vidéos), le développeur Back-End va utiliser des langages de programmation «dynamique».</p>
+        <a href="https://www.alticreation.com/difference-developpeur-front-end-et-developpeur-back-end/" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</div>
+<p>
+  <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"> Developpement Front-End</a>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Developpement Back-End</button>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2"> Developpement Front-End et Back-End</button>
+</p>
+<div class="row">
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample1">
+      <div class="card card-body">
+       Lorsque l'on parle de «Front-End», il s'agit finalement des éléments du site que l'on voit à l'écran et avec lesquels on peut interagir. Ces éléments sont composés de HTML, CSS et de Javascript contrôlés par le navigateur web de l'utilisateur.
+</div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample2">
+      <div class="card card-body">
+        Le Back-End, c'est un peu comme la partie immergée de l'iceberg. Elle est invisible pour les visiteurs mais représente une grande partie du développement d'un projet web. Sans elle, le site web reste une coquille vide.
+</div>
+    </div>
+  </div>
+</div>
+<br/><br/><br/>
+</div>
+</div>
+</body>
+</html>
